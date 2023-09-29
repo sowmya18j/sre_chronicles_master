@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  sre-service:
+    # platform: linux/amd64
+    build:
+      args:
+        - BUILD_COMMAND
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${IMAGE_NAME}
+    image: sre/dxp/${IMAGE_NAME}:${TAG}
+    restart: unless-stopped
+    ports:
+      - "${PORT}:8000"

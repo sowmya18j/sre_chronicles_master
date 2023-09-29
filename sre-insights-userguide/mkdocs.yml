@@ -1,0 +1,71 @@
+site_name: SRE Insights Guide
+theme:
+  logo: ../img/decurtis_logo.png
+  name: material
+  favicon: ../img/MicrosoftTeams-image.png
+  custom_dir: material/.overrides
+  palette:
+    primary: white
+  features:
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - content.tooltips
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+
+copyright: "© 2023 Sentioza LLP. All rights reserved."
+
+nav:
+# - Home: index.md
+- Getting started: 
+   - Copyright Notice : sre_manual/copyright_notice.md
+   - SRE Insights : sre_manual/sre_insight.md
+   - Login : sre_manual/using_sre_insights.md
+   - Homepage:   
+      - Landing page : sre_manual/Homepage.md
+      - VV Shore : sre_manual/vv_shore.md
+      - VV Ship : sre_manual/vvship.md
+      - Audible Alerts : sre_manual/audible_alerts.md
+      - Logout : sre_manual/Logout.md
+      - Refresh Label : sre_manual/Refresh Label.md
+   - VV Shore Dashboard : 
+      - Shore Dashboard : sre_manual/shore_dashboard.md
+      - Embarkation Stats : sre_manual/embarkation_stats.md
+      - Synchronization : sre_manual/synchronization.md
+      - Alerts : sre_manual/alerts_shore_dashboard.md
+   
+   - Release Notes :
+      - Version 2.0 : sre_manual/release_notes-2.0.md
+      - Version 1.23.0 : sre_manual/release_notes_1.23.0.md
+      - Version 1.16.0 : sre_manual/release_notes_1.16.0.md
+      - Version 1.15.0 : sre_manual/release_notes_1.15.0.md
+      - Version 1.5.0 : sre_manual/release_notes-1.5.0.md
+      - Version 1.4.0 : sre_manual/release_notes_1.4.0.md
+      - Version 1.3.0 : sre_manual/release_notes_1.3.0.md
+      - Version 1.2.0 : sre_manual/release_notes_1.2.0.md
+      - Version 1.1.0 : sre_manual/sre_insights_release_notes.md 
+
+   - Glossary : sre_manual/global_glossary.md
+   # - Admin : sre_manual/tm_Admin.md
+   # - Current : sre_manual/tm_current.md
+
+markdown_extensions:
+ - toc:
+     title: On This Page
+ - abbr
+ - attr_list
+ - pymdownx.snippets
+ - admonition
+ - pymdownx.details
+ - pymdownx.superfences
+ 
+
+
+extra:
+ generator: false
+
+
+
+
