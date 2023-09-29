@@ -8,11 +8,9 @@ This document (written or otherwise displayed on magnetic media or another mediu
 
 It is the intellectual property of Sentioza LLP and has been furnished only for informational purposes. Its goal is to make the use of our software and related products easier for our clients. No license or permission is granted to use such information in any manner or to reproduce any of the information contained within the manual. 
 
-Reproduction or distribution and/or any sort of public display in any form are strictly prohibited unless prior expressed written permission of the copyright owner. That request must be set forth in writing and properly delivered to the following address: 
+Reproduction or distribution and/or any sort of public display in any form are strictly prohibited unless prior expressed written permission of the copyright owner. That request must be set forth in writing and properly delivered to the following email address: 
 
-3208 East Colonial Drive Suite C190 Orlando, Florida 32803 USA
-
-[hr@sentioza.com](hr@sentioza.com)
+hr@sentioza.com
 
 No claim to copyright is made for original U.S. Government Works.
 
