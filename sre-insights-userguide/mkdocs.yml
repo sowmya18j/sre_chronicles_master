@@ -1,6 +1,6 @@
 site_name: SRE Insights Guide
 theme:
-  logo: ../img/decurtis_logo.png
+  logo: ../img/Sentioza Logo.png
   name: material
   favicon: ../img/MicrosoftTeams-image.png
   custom_dir: material/.overrides
